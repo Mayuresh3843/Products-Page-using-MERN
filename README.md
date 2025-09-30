@@ -45,7 +45,10 @@ The backend connects to MongoDB Atlas and provides REST APIs, while the frontend
 <h3>📦 Install Prerequisites</h3>
 
     npm install react-router-dom axios react-image-gallery lucide-react
-
+    
+<h4>Install Tailwind CSS:-
+    Check Installation from the Tailwind CSS website
+</h4>
 
 <h3> Start the Frontend: </h3>
 
@@ -61,6 +64,7 @@ In Postman Body>Raw>select JSON and type the query to post Product.
 For Sample postman query:-
 Check the Postman Query file
 </h4>
+
 
 
 
