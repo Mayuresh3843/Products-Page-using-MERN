@@ -52,7 +52,7 @@ The backend connects to MongoDB Atlas and provides REST APIs, while the frontend
     npm run dev
 
 <h3>To add products in the MongoDB Database, use the Postman Api</h3>
-
+<h4>
 In Postman, use the Post Command to post products to MongoDB
 In my case, I have used http://localhost:5000/products (Replace products with your database collection name.
 
@@ -60,6 +60,7 @@ In Postman Body>Raw>select JSON and type the query to post Product.
 
 For Sample postman query:-
 Check the Postman Query file
+</h4>
 
 
 
