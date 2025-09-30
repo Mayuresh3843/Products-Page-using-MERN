@@ -34,12 +34,10 @@ const StorageSchema = new mongoose.Schema({
 const ProductSchema = new mongoose.Schema({
   name: String,
   price: Number,       // base/default price (can match first storage option)
-  cprice: Number,      // cut price
   rating: Number,
   description: String,
   exchange: Number,
   off: Number,
-  colorname: String,
   plan: Number,
   colors: [ColorSchema],     // list of color variants
   storages: [StorageSchema], // list of storage options
