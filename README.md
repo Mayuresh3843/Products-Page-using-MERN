@@ -1,7 +1,7 @@
-This Products page was made with MERN (Express.js, React.js, Node.js, MongoDB). 
-Here, the Postman Api is used to store the products in MongoDB, and React is used to develop the frontend, which uses Node.js and Express.js to retrieve the product data from MongoDB.
+This Products page was made with MERN (MongoDB, Express.js, React.js, Node.js). 
+Here, the Postman Api stores the products in MongoDB, and React develops the front end, which uses Node.js and Express.js to retrieve the product data from MongoDB.
 
-You must create a Node modules folder in the frontend and a backend folder 
+You must create a Node modules folder in the frontend and the backend folder. 
 cd frontend
 npm install
 
@@ -9,3 +9,4 @@ cd backend
 npm install
 
 ✅ Done!
+
