@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect MongoDB
-mongoose.connect("mongodb+srv://salvankar38:Mayuresh123@cluster0.uweswjo.mongodb.net/productsDB?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect("mongodb+srv://YourUsername:YourPassword@cluster0.uweswjo.mongodb.net/YourDatabaseName?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
@@ -42,7 +42,7 @@ const ProductSchema = new mongoose.Schema({
   colorname: String,
   plan: Number,
   colors: [ColorSchema],     // list of color variants
-  storages: [StorageSchema], // ✅ NEW: list of storage options
+  storages: [StorageSchema], // list of storage options
   highlights: [String],      // bullet points about the product
   marketingImages: [String], // marketing images
 });
