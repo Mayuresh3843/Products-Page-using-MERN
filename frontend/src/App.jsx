@@ -4,7 +4,7 @@ import Products from "./components/products.jsx";
 import LoginPage from "./components/Login.jsx";
 import Signup from "./components/Signup.jsx";
 import ProductDetail from "./components/ProductDetail.jsx";
-import ScrollToTop from "./components/ScrollToTop.jsx";  // ← import here
+import ScrollToTop from "./components/ScrollToTop.jsx";  
 import Iphonepro from "./components/iphonepro.jsx";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -21,7 +21,7 @@ export default function App() {
             element={
               <>
                 <h1 className="font-bold ml-6 text-black pt-7">
-                  This is Dummy website created by react.js ,express.js ,node.js & mongodb
+                  This is a Dummy website created by React.js, Express.js, Node.js, & mongodb
                 </h1>
                 <p className="mt-5 ml-6 text-black">
                   These products are fetched from backend using mongodb, node.js & express.js. when you click on products you are directed to product detail page which is fetched from backend.
