@@ -1,4 +1,4 @@
-<h1>🛍️ Products Page using MERN (MongoDB, Express.js, React.js, Node.js).</h1>
+<h1>🛍️ Products Page using MERN stack (MongoDB, Express.js, React.js, Node.js).</h1>
 
 <h3>A simple products page built with the MERN stack (MongoDB, Express.js, React, Node.js).
 The backend connects to MongoDB Atlas and provides REST APIs, while the frontend displays products in a clean UI.</h3>
@@ -64,6 +64,7 @@ In Postman Body>Raw>select JSON and type the query to post Product.
 For Sample postman query:-
 Check the Postman Query file
 </h4>
+
 
 
 
