@@ -5,7 +5,7 @@ import LoginPage from "./components/Login.jsx";
 import Signup from "./components/Signup.jsx";
 import ProductDetail from "./components/ProductDetail.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";  
-import Iphonepro from "./components/iphonepro.jsx";
+
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
