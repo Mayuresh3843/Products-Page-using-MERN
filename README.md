@@ -40,8 +40,9 @@ The backend connects to **MongoDB Atlas** and provides **REST APIs**, while the 
 
 ```bash
 # 📦 Clone the repository
-git clone https://github.com/yourusername/Products-Page-MERN.git
-cd Products-Page-MERN
+git clone https://github.com/Mayuresh3843/Products-Page-using-MERN-stack.git
+cd Products-Page-using-MERN-stack
+
 ```
 
 
@@ -135,6 +136,7 @@ Check the Postman Query file
 
 ### ![Badge](https://img.shields.io/badge/Signup-Page-purple?style=for-the-badge)
 ![Signup Page Screenshot](./screenshots/signup.png)  
+
 
 
 
