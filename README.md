@@ -46,52 +46,63 @@ cd Products-Page-MERN
 
 
 ## 1. Setup Backend
-<h3>
+
 
     cd backend 
     npm install
 
-</h3>
+
  <h2> 🔹 Replace MongoDB credentials</h2>
 <h3>In server.js, update: <br/></h3>
 <h4>mongoose.connect("mongodb+srv://(username):(password)@cluster0.mongodb.net/(dbname)")  </h4> 
 
 <h2>📦 Install Prerequisites</h2>
-<h3>
+
 
     npm install express mongoose cors dotenv
     npm install --save-dev nodemon  
     
-</h3>
+
+
+<h2>Update package.json (backend)</h2>
+
+Open your backend/package.json file. Inside "scripts", add a "dev" script like this:
+```bash
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+}
+```
+
 <h2> 🚀 Start the backend: </h2>
-<h3>
+
 
     npm run dev
 
-</h3>
+
 <h2>2. Setup Frontend</h2>
-<h3>
+
 
     cd frontend 
     npm install
 
-</h3>
+
 <h2>📦 Install Prerequisites</h2>
-<h3>
+
 
     npm install react-router-dom axios react-image-gallery lucide-react
 
-</h3>
+
     
 <h3>Install Tailwind CSS from <a href="https://tailwindcss.com/docs/installation/using-vite">Official docs </a>
-</h3>
+
 
 <h2>🚀 Start the Frontend: </h2>
-<h3>
+
     
     npm run dev
 
-</h3>
+
 
 <h2>📬 Using Postman to Add Products</h2>
 
@@ -124,5 +135,6 @@ Check the Postman Query file
 
 ### ![Badge](https://img.shields.io/badge/Signup-Page-purple?style=for-the-badge)
 ![Signup Page Screenshot](./screenshots/signup.png)  
+
 
 
