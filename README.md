@@ -1,6 +1,6 @@
 # 🛍️ Products Page using MERN Stack  
 
-A full-stack **Products Page** built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js).  
+A simple **Products Page** built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js).  
 The backend connects to **MongoDB Atlas** and provides **REST APIs**, while the frontend displays products in a clean and responsive UI.  
 
 ---
@@ -124,4 +124,5 @@ Check the Postman Query file
 
 ### ![Badge](https://img.shields.io/badge/Signup-Page-purple?style=for-the-badge)
 ![Signup Page Screenshot](./screenshots/signup.png)  
+
 
