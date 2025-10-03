@@ -21,10 +21,11 @@ export default function App() {
             element={
               <>
                 <h1 className="font-bold ml-6 text-black pt-7">
-                  This is a Dummy website created by React.js, Express.js, Node.js, & mongodb
+                   🛍️ Products Page using MERN Stack
                 </h1>
                 <p className="mt-5 ml-6 text-black">
-                  These products are fetched from backend using mongodb, node.js & express.js. when you click on products you are directed to product detail page which is fetched from backend.
+                  A simple Products Page built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
+The backend connects to MongoDB Atlas and provides REST APIs, while the frontend displays products in a clean and responsive UI.
                 </p>
                 <Products />
                 
