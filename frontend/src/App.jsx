@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 export default function App() {
   return (
     <Router>
-      <ScrollToTop />   {/* ← add this line */}
+      <ScrollToTop />   
       <div className="w-screen h-screen bg-white">
         <Navbar />
         <Routes>
